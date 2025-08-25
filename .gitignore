@@ -19,6 +19,12 @@ dist/
 *.egg-info/
 .eggs/
 
+# uv
+.venv/
+.python-version
+.uv/
+uv.lock.bak
+
 # Jupyter
 .ipynb_checkpoints/
 

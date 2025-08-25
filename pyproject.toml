@@ -1,0 +1,20 @@
+[project]
+name = "learning-class-reg"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "karthik r", email = "karthik.ephy@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.25",
+    "scipy>=1.11",
+    "pandas>=2.0",
+    "scikit-learn>=1.3",
+    "matplotlib>=3.7",
+    "pillow>=10.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.8.4,<0.9.0"]
+build-backend = "uv_build"
